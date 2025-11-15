@@ -1,25 +1,35 @@
 # Go Algorithms
 
-Repositório pessoal contendo minhas soluções de algoritmos implementadas em Go.  
-O objetivo deste projeto é:
+Personal repository containing my algorithm solutions implemented in Go.
+The goal of this project is to:
 
-- Melhorar raciocínio lógico
-- Aprender estruturas de dados e técnicas de resolução de problemas
-- Me preparar para entrevistas técnicas
-- Registrar minha evolução como desenvolvedor Go
+- Improve logical reasoning
+- Learn data structures and problem-solving techniques
+- Prepare for technical interviews
+- Track my progress as a Go developer
 
-As soluções estão organizadas por categorias (arrays, strings, DP, grafos, etc.).  
-Algumas possuem testes simples utilizando `testing` e `reflect`.
+The solutions are organized by categories (arrays, strings, DP, graphs, etc.).
+Some of them include simple tests using `testing` and `reflect`.
 
-Cada algoritmo possui seu próprio arquivo `.go`.  
-Alguns diretórios podem conter arquivos `_test.go` com testes unitários.
+Each algorithm has its own `.go` file.
+Some directories may also contain `_test.go` files with unit tests.
 
 --
 
-## Como Rodar os Testes
+## How to Run the Tests
 
-Para rodar todos os testes do repositório:
+To run all tests in the repository:
 
 ```bash
 go test ./...
+```
+
+or
+
+```bash
+go test -v ./...
+```
+
+```
+
 ```
